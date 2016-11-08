@@ -21,7 +21,7 @@ use mi\modules\credit\models\MiCe;
  */
 class IndexController extends Controller
 {
-	
+	echo "777";exit;
 	public $layout = 'fmain';
 
 	public $enableCsrfValidation = false;
