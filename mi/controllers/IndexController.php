@@ -29,7 +29,7 @@ class IndexController extends Controller
      */
     public function behaviors()
     {
-
+        yii::P(9999);
         return [
             'access' => [
                 'class' => AccessControl::className(),
